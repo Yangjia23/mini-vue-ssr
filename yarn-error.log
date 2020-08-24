@@ -1,0 +1,47 @@
+Arguments: 
+  /Users/yangjay/.nvm/versions/node/v14.2.0/bin/node /Users/yangjay/.nvm/versions/node/v14.2.0/bin/yarn add webpack webpack-cli webpack-dev-server vue-loader vue-template-compiler vue-style-loader css-loader@3 @babel/core @babel/preset-env @babel-loader html-webpack-plugin webpack-merge
+
+PATH: 
+  /usr/local/mongodb/bin:/Users/yangjay/.nvm/versions/node/v14.2.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mongodb/bin:/Users/yangjay/.nvm/versions/node/v14.2.0/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/@babel-loader: Request "https://registry.npm.taobao.org/@babel-loader" returned a 405
+      at Request.params.callback [as _callback] (/Users/yangjay/.nvm/versions/node/v14.2.0/lib/node_modules/yarn/lib/cli.js:66996:18)
+      at Request.self.callback (/Users/yangjay/.nvm/versions/node/v14.2.0/lib/node_modules/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/Users/yangjay/.nvm/versions/node/v14.2.0/lib/node_modules/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/Users/yangjay/.nvm/versions/node/v14.2.0/lib/node_modules/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1225:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "mini-vue-ssr",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Yangjay <yj960203only@gmail.com>",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
